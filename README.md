@@ -1,5 +1,5 @@
 # AWS EC2 Instance Terraform module
-olatoye
+olatoye t
 i am a devops engineer
 Terraform module which creates EC2 instance(s) on AWS.
 
