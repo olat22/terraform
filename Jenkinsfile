@@ -1,9 +1,9 @@
 pipeline {
   agent any
- triggers {
-  pollSCM ''
-} 
-  stages{
+triggers {
+  pollSCM '* * * * *'
+}
+stages{
     stage('build'){
       steps{
       sh 'echo Hello'
